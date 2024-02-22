@@ -9,8 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&lt { quick_tap_ms = <200>; };
-
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -26,7 +24,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 4>;
+            key-positions = <1 5>;
             bindings = <&kp ESC>;
         };
     };
